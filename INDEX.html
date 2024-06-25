@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Personal Webpage</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<style>
+    body {
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #FFE4E1;
+        color: #333;
+    }
+
+    header {
+        background-color: #BC8F8F;
+    padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    nav a {
+        color: #fff;
+        text-decoration: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        transition: all 0.3s ease;
+    }
+
+    nav a:hover {
+        background-color: #fff;
+        color: #BC8F8F;
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 50px;
+    }
+
+    .text {
+        text-align: center;
+    }
+
+    .text h1 {
+        font-size: 3rem;
+        margin-bottom: 20px;
+        color: #333;
+    }
+
+    .text p {
+        line-height: 1.6;
+        max-width: 400px;
+    }
+
+    .image {      
+        width: 500px;
+        height: 500px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    footer {
+        background-color: #BC8F8F;
+        padding: 20px;
+        text-align: center;
+        color: #fff;
+    }
+
+    .footer-content {
+    color: #800000; 
+    display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .footer-content a {
+        color: #800080; 
+        text-decoration: none;
+        padding: 10px;
+        border-radius: 5px;
+        transition: all 0.3s ease;
+    }
+
+    .footer-content a:hover {
+        background-color: #fff;
+        color: #BC8F8F;
+    }
+
+    .button {
+        background-color: #BC8F8F;
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        font-weight: bold;
+    }
+
+    .button:hover {
+        background-color: #fff;
+        color: #BC8F8F;
+    }
+
+    .featured {
+        width: 50px;
+        height: 50px;
+    }
+</style>
+</head>
+<body>
+<header>
+    <div>
+        <h1>Welcome to My Personal Webpage</h1>
+    </div>
+    <nav>
+	<a href="Profile.html" class="button">PROFILE</a>
+	<a href="Education.html" class="button">EDUCATION</a>
+	<a href="Family.html" class="button">FAMILY</a>
+	<a href="Friends.html" class="button">FRIENDS</a>
+	<a href="menu.html" class="button">MENU</a>
+	
+        </header>
+<div class="container">
+    <div class="text">
+        <h1>Hello, nice to meet you!</h1>
+        <p>Take a moment to delve into the depths of my Personal Webpage, where you can embark on a journey of discovery and get to know me better through the stories and experiences.</p>
+        <a href="#contact"><button class="button">Contact Me</button></a>
+    </div>
+    <div>
+        <img src="photo1.png" alt="My Photo" class="image">
+    </div>
+</div>
+<footer>
+    <div class="footer-content">
+        <div>
+            <a href="mailto:farishaaleeya3@gmail.com">My email</a>
+        </div>
+        <div>
+            <p>one day at a time.</p>
+        </div>
+        <div>
+            <p>things will always work out.</p>
+        </div>
+        <div>
+            <p>the best is yet to come.</p>
+        </div>
+    </div>
+    </div>
+    </div>
+</footer>
+<div id="contact" style="padding: 20px;">
+    <h2 style="text-align: center; color: #BC8F8F;">Contact Me</h2>
+    <p style="text-align: center;">Feel free to reach out to me using the form below:</p>
+    <form style="display: flex; flex-direction: column; max-width: 400px; margin: 0 auto;">
+        <input type="text" name="name" placeholder="Your Name" style="padding: 10px; margin: 10px 0; border-radius: 5px;">
+        <input type="email" name="email" placeholder="Your Email" style="padding: 10px; margin: 10px 0; border-radius: 5px;">
+        <textarea name="message" placeholder="Your Message" style="padding: 10px; margin: 10px 0; border-radius: 5px;"></textarea>
+        <button type="submit" style="background-color: #BC8F8F; color: #fff; padding: 10px 20px; border-radius: 5px; border: none; cursor: pointer; transition: all 0.3s ease;">Send Message</button>
+    </form>
+</div>
+
+     </body>
+</html>
